@@ -6,8 +6,6 @@
 
 body {
     font-family: 'Gotham', -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;;
-    /* overflow-x: hidden; */
-    font-family: 'Gotham', sans-serif;
     
 }
 
@@ -100,7 +98,8 @@ li {
 
         .times {
             margin-top: 1rem;
-            margin-left: 14rem;
+            margin-bottom: 1rem;
+            margin-left: 15rem;
             padding: 0.5rem 1rem;
             display: block;
             background: transparent;
@@ -152,13 +151,12 @@ li {
 
 
 #links {
-    margin: 3.5rem 1rem;
+    margin: 3rem 1rem;
 }
 
-.close-button {
-    align-self: flex-end;
-    height: 2.5rem;  
-}
+/* .close-button {  
+    width: 100%;
+} */
 
 
 .overlay {
@@ -168,8 +166,9 @@ li {
     width: 100%;
     height: 100%;
     z-index: 5;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(3px);
+    transition: all 1s ease-in;
 }
 
 .hidden {
